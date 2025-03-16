@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Savers Phoenix</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Life Savers Phoenix Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#program">Program</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Empowering Kids with Life-Saving Skills</h1>
+        <p>Building confidence and leadership through hands-on emergency training.</p>
+        <a href="#program" class="cta-button">Learn More</a>
+    </section>
+    <section id="about" class="content">
+        <h2>About Us</h2>
+        <p>Life Savers Phoenix is a student-led initiative dedicated to teaching children critical emergency response skills.</p>
+        <img src="images/team.jpg" alt="Our Team">
+    </section>
+    <section id="mission" class="content">
+        <h2>Our Mission</h2>
+        <p>We aim to equip children with life-saving knowledge to respond confidently in medical emergencies.</p>
+        <img src="images/mission.jpg" alt="Mission in Action">
+    </section>
+    <section id="program" class="content">
+        <h2>Our Program</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="images/cpr.jpg" alt="CPR Training">
+                <h3>CPR & AED Training</h3>
+                <p>Hands-on CPR practice with high-fidelity mannequins and AED training.</p>
+            </div>
+            <div class="card">
+                <img src="images/first_aid.jpg" alt="First Aid">
+                <h3>First Aid & Safety</h3>
+                <p>Choking relief, bleeding control, and fire safety techniques.</p>
+            </div>
+            <div class="card">
+                <img src="images/water_safety.jpg" alt="Water Safety">
+                <h3>Water & Heat Safety</h3>
+                <p>Identifying risks and emergency response for drowning or heat-related illness.</p>
+            </div>
+        </div>
+        <div class="image-gallery">
+            <img src="images/Screenshot_2025-03-16_at_3.43.45_PM.png" alt="CPR Training Session">
+            <img src="images/life_saving_skills_1.jpg" alt="First Aid Training">
+            <img src="images/life_saving_skills_2.jpg" alt="CPR Demonstration">
+            <img src="images/life_saving_skills_3.jpg" alt="AED Usage">
+        </div>
+    </section>
+    <section id="partners" class="content">
+        <h2>Community Partners</h2>
+        <p>We collaborate with schools, community centers, and organizations to expand our impact.</p>
+        <img src="images/partners.jpg" alt="Community Partners">
+    </section>
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Email: lifesaversphoenix@example.com</p>
+        <p>Follow us on Social Media: @Life_Savers_Phoenix</p>
+        <a href="#" class="cta-button">Get Involved</a>
+    </section>
+    <footer>
+        <p>&copy; 2025 Life Savers Phoenix. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
