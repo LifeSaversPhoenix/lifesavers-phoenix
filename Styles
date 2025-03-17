@@ -1,6 +1,86 @@
-LifeSaversPhoenix/
-│── index.html
-│── css/
-│   └── styles.css
-│── images/
-│   └── (your images here)
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #004466;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('images/hero-bg.jpg') no-repeat center/cover;
+    color: white;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #FF5733;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.content {
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.image-gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    background: #004466;
+    color: white;
+    padding: 10px 0;
+}
